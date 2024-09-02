@@ -65,26 +65,23 @@ justify-content: center;
     display: flex;
     background-color: black;
     padding: 50px;
-    flex-wrap: wrap; /* يسمح للعناصر بالانتقال إلى صفوف جديدة */
-    gap: 20px; /* المسافة بين العناصر، يمكن تعديلها حسب الحاجة */
+    flex-wrap: wrap; 
+    gap: 20px; 
     justify-content: space-between;
-     /* توزيع العناصر بشكل متساوي */
 }
 
 .photo-content {
-    flex: 1 1 calc(33.33% - 20px); /* يعرض ثلاث عناصر في كل صف، مع خصم المسافة بين العناصر */
-    box-sizing: border-box; /* يتأكد من أن العرض يتضمن الحواف والتباعد */
+    flex: 1 1 calc(33.33% - 20px); 
+    box-sizing: border-box; 
 }
 
 .photo-content img {
-    width: 80%; /* يجعل الصورة تأخذ العرض الكامل للحاوية */
-    height: auto; /* يحافظ على نسبة العرض إلى الارتفاع */
-}
+    width: 80%; 
+    height: auto; 
 
 .photo-content h2 {
-    text-align: center; /* لتوسيط العناوين */
-    margin-top: 10px; /* المسافة بين الصورة والعنوان */
-}
+    text-align: center; 
+    margin-top: 10px; 
 
 
 .photo-content {
